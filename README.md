@@ -64,14 +64,13 @@ end
 endmodule
 ```
 
+
 **RTL LOGIC FOR SISO Shift Register**
-![image](https://github.com/user-attachments/assets/e6598a2e-4e94-4572-b828-37373aa9de0d)
-
-
-
+![WhatsApp Image 2024-11-11 at 16 26 33_b0019f31](https://github.com/user-attachments/assets/db5519a9-de93-498f-8ebf-722b2ad5c4c2)
 
 **TIMING DIGRAMS FOR SISO Shift Register**
-![image](https://github.com/user-attachments/assets/ec5a71a9-64a1-4876-a073-918930d15682)
+![WhatsApp Image 2024-11-11 at 16 26 19_1f8b0036](https://github.com/user-attachments/assets/d4d4a0da-1ca2-44cd-b59f-df8f286c68a8)
+
 
 
 
