@@ -23,30 +23,25 @@ Figure 01 4 Bit SISO Register
 The synchronous nature of the flip-flops ensures that the shifting of data occurs in a coordinated manner. When the clock signal rises, the input data is sampled and stored in the first flip-flop. On subsequent clock pulses, the stored data propagates through the flip-flops, moving from one flip-flop to the next.
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
+
 **Procedure**
 
-/* write all the steps invloved */
+1. Type the program in Quartus software.
 
-1.Initialize the shift register to a known state (e.g., all zeros).
+2. Compile and run the program.
 
-2.Input a bit serially into the shift register.
+3. Generate the RTL schematic and save the logic diagram.
 
-3.Shift the contents of the register one position to the right (or left).
+4. Create nodes for inputs and outputs to generate the timing diagram.
 
-4.Output the shifted bit from the last stage of the register.
+5. For different input combinations generate the timing diagram.
 
-5.Repeat steps 2-4 for each bit you want to input and shift.
 
 **PROGRAM**
-
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
-
-Developed by: MOPURI ANKITHA
-
-RegisterNumber: 212223040117
-
-*/
 ```
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by:Alan Samuel Vedanayagam
+RegisterNumber:212223040012
 module SISOSR(clock, clear, A, E);
 input clock, clear, A;
 output reg E;
@@ -62,20 +57,16 @@ B = A;
 end
 end
 endmodule
+
+*/
 ```
-
-
 **RTL LOGIC FOR SISO Shift Register**
 ![WhatsApp Image 2024-11-11 at 16 26 33_b0019f31](https://github.com/user-attachments/assets/db5519a9-de93-498f-8ebf-722b2ad5c4c2)
 
 **TIMING DIGRAMS FOR SISO Shift Register**
 ![WhatsApp Image 2024-11-11 at 16 26 19_1f8b0036](https://github.com/user-attachments/assets/d4d4a0da-1ca2-44cd-b59f-df8f286c68a8)
 
-
-
-
-
 **RESULTS**
 
-SISO Shift Register using verilog and validating their functionality using their functional tables has successful execution of the program.
-/
+
+the implementation of serial in serial out shift register using quartus || and verilog was executed succesfully.
